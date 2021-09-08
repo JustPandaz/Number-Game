@@ -1,0 +1,54 @@
+.root {
+
+	-fx-body-color : #F5F5F5;
+	-fx-outer-border : #cecece;
+}
+
+.background {
+
+    -fx-background-color : #000000;
+}
+.button1 {
+
+    -fx-background-color : linear-gradient(to bottom left, #00BBD3, #FF3B84);
+    -fx-text-fill : #FFFFFF;
+    -fx-border-color : #FFFFFF;
+    -fx-background-radius : 5;
+    -fx-border-radius : 5;
+}
+
+.button1:pressed {
+
+    -fx-background-color : linear-gradient(to bottom left, #FF3B84, #00BBD3);
+    -fx-text-fill: #000000;
+    -fx-border-color : linear-gradient(to bottom left, #00BBD3, #FF3B84);
+    -fx-background-radius : 5;
+    -fx-border-radius : 5;
+}
+
+.button2 {
+
+    -fx-border-color : #FFFFFF;
+    -fx-background-color : linear-gradient(to bottom left, #15193C, #1A2D4D);
+    -fx-border-radius : 5;
+}
+
+.button2:pressed {
+
+    -fx-border-color : #5B64F7;
+    -fx-border-radius : 5;
+}
+
+.gradient-label {
+
+    -fx-text-fill : linear-gradient(to bottom left, #00BBD3, #FF3B84);
+}
+
+.text-field {
+
+    -fx-background-color : #FF3B84;
+    -fx-text-fill : #FFFFFF;
+    -fx-border-radius : 5;
+    -fx-border-color : #FFFFFF;
+    -fx-background-radius : 5;
+}
